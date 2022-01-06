@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1061527130306",
+    "project_id": "vrcmart-99c7e",
+    "storage_bucket": "vrcmart-99c7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061527130306:android:b7648a972748663ddf2b5b",
+        "android_client_info": {
+          "package_name": "com.rohini.dmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061527130306-pu4ho99gpjbtb3cpkm4i83m3penhrp31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuOxReyHFAnRlaT_LoRo_G2lus7u6Q640"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061527130306-pu4ho99gpjbtb3cpkm4i83m3penhrp31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Dmart.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="dmart">
+  <link rel="apple-touch-icon" href="icons/app_logo.png">
+
+  <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+
+  <title>Dmart</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+<!--  <script src="/__/firebase/8.4.2/firebase-app.js"></script>-->
+<!--  <script src="/__/firebase/init.js"></script>-->
+
+
+
+    <!-- // Other stuff -->
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrPHQZmyw3vp-C9DgafWpf1Vx__13f7WI"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+        navigator.serviceWorker.register("/firebase-messaging-sw.js");
+      });
+    }
+  </script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-messaging.js"></script>
+
+  <div class="center ">
+    <div class="logo"><img src="logo.png" alt = "logo" width="250px"  /></div>
+    <div class="loader"><img src="loading.gif" alt="loader" width="250px"/></div>
+  </div>
+
+
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyDMs2taQUGHG3CeWkZ44UBEzUaOqXas_cI",
+      authDomain: "vrcmart-99c7e.firebaseapp.com",
+      projectId: "vrcmart-99c7e",
+      storageBucket: "vrcmart-99c7e.appspot.com",
+      messagingSenderId: "1061527130306",
+      appId: "1:1061527130306:web:d70a67f51dbd57e8df2b5b",
+      measurementId: "G-L7DR5YNY2E"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>

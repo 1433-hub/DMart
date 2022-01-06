@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1061527130306-l0tp6pobifrt5kjd8bqons0c070s37lk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1061527130306-l0tp6pobifrt5kjd8bqons0c070s37lk</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1061527130306-pu4ho99gpjbtb3cpkm4i83m3penhrp31.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBm5JX9riQIVsJzs5G9Gev_9xOBHu496NU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1061527130306</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.rohini.dmart</string>
+	<key>PROJECT_ID</key>
+	<string>vrcmart-99c7e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vrcmart-99c7e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1061527130306:ios:c77ffc31c0b2e485df2b5b</string>
+</dict>
+</plist>
